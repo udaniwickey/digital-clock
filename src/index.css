@@ -1,0 +1,25 @@
+body{
+  background-image: url(assets/pancake.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container{
+  background-color: white;
+  width: 100vw;
+}
+.clock{
+  color: rgb(254, 170, 61);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: Verdana;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 9%, 15%, 0.75);
+}
